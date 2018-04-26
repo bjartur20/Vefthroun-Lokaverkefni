@@ -14,25 +14,43 @@ body{
     top: 0;
     height: 150px;
     width: 100%;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.4);
+}
+.platforms{
+    list-style-type: none;
+    color: white;
+    display: inline;
+    margin-top: 100px;
+}
+.platforms li{
+    display: inline;
+}
+.logo{
+    width: 130px;
+    height: auto;
+    margin: 10px;
 
+    float: left;
+}
+.lagaheader{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
+    grid-template-columns: 87% 13%;
 }
     /* Drop-down takki */
+.takki{
+    width: 75px;
+    height: auto;
+    float: right;
+}
 .dropbtn {
     background-color: rgba(0,0,0,0);
-    color: white;
     padding: 16px;
     border: none;
-    cursor: pointer;
 }
 .dropdown {
     position: relative;
     display: inline-block;
     margin: 0;
-    right: 0;
 }
 .dropdown-content {
     display: none;
@@ -59,17 +77,25 @@ body{
 .dropdown:hover .dropbtn {
     color: Grey;
 }
-    /* Myndir */
-.logo{
-    width: 100px;
-    height: auto;
-}
-.logo1{
-    width: 100px;
-    height: auto;
-    right: 0px;
+/* Myndir */
+.home{
+    width: 100%;
+    margin: auto;
 }
 /* Content */
+.content{
 
-
+}
+.video{
+    text-align: center;
+    margin: 25px;
+}
 /* Footer */
+
+/* Auka (lagar ýmsa hluti)*/
+.anchor{
+    display: block;
+    height: 150px;
+    margin-top: -150px;
+    visibility: hidden;
+}
