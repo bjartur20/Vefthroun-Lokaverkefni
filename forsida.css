@@ -1,7 +1,10 @@
+/* Importar fontum */
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Sans|Roboto');
+
 body{
     margin: 0;
     padding: 0;
-    background: #333333;
+    background: White;
 }
 /* Wrapper */
 .wrapper{
@@ -21,6 +24,7 @@ body{
     color: white;
     display: inline;
     margin-top: 100px;
+    font-family: 'Fjalla One', sans-serif;
 }
 .platforms li{
     display: inline;
@@ -55,7 +59,7 @@ body{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgba(0,0,0,0.7)
+    background-color: rgba(1,1,1,0.7)
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -83,15 +87,87 @@ body{
     margin: auto;
 }
 /* Content */
-.content{
-
+.general{
+    background-image: url("https://img.game.co.uk/ml2/4/5/2/0/452002_scr3_a.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.kynos{
+    background-image: url("http://simracingpaddock.com/wp-content/uploads/2016/12/ss_fbf51f0346e71c726bd99f8cc338e1a462df2ad8.1920x1080.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.playerbase{
+    background-image: url("https://www.assettocorsa.net/wp-content/uploads/assettoPRO_base-1440x710.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.development{
+    background-image: url("http://assettocorsamods.net/attachments/audi-tt-rs-vln-3-jpg.1538/");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.future{
+    background-image: url("https://cdn.wccftech.com/wp-content/uploads/2018/02/assettocompetizione_1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .video{
     text-align: center;
     margin: 25px;
 }
-/* Footer */
+.text{
+    max-width: 960px;
+    margin: auto;
+    padding: 25px;
 
+    color: white;
+    background: rgba(86,86,86,0.7)
+}
+h1{
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+p{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* Footer */
+footer{
+    margin: 0 auto;
+    width: 960px;
+    height: 100px;
+
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.btn{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.btn:hover {
+    background-color: #555555;
+    color: white;
+}
 /* Auka (lagar ýmsa hluti)*/
 .anchor{
     display: block;
