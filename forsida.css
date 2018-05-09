@@ -1,14 +1,11 @@
 /* Importar fontum */
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Sans|Roboto');
 
+/* Body edits */
 body{
     margin: 0;
     padding: 0;
     background: White;
-}
-/* Wrapper */
-.wrapper{
-
 }
 
 /* Header */
@@ -168,7 +165,7 @@ footer{
     background-color: #555555;
     color: white;
 }
-/* Auka (lagar ýmsa hluti)*/
+/* Auka (lagar linkana í efnisyfirlitinu hluti)*/
 .anchor{
     display: block;
     height: 150px;
